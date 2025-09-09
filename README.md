@@ -1,6 +1,6 @@
 ## What is this?
 
-This is a **1v1 blackjack game** where you face off against the dealer using **hole card** rules and **late surrender**, developed using Go and [Bubbletea](https://github.com/charmbracelet/bubbletea). It includes all the main mechanics, but without **splitting** and **insurance**.
+This is a **1v1 blackjack game** where you play against the dealer, with **hole card** and **late surrender** rules. Developed using [Go](https://go.dev) and [Bubbletea](https://github.com/charmbracelet/bubbletea), it includes all the key mechanics of the game, minus **splitting** and **insurance**.
 
 ### Game Features
 
