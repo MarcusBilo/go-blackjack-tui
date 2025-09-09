@@ -8,7 +8,7 @@ This is a **1v1 blackjack game** where you play against the dealer, with **hole 
   - Blackjack payout (3:2, 7:5, 6:5)
   - Soft 17 rule (dealer hits or stands on soft 17)
   - Number of decks (1-255), configurable in `strings.json` file
-  - Penetration point when to shuffle (0%, 25%, 50%, 75%)
+  - Penetration point, i.e. when to shuffle (0%, 25%, 50%, 75%)
 - **Betting Structure**: Bet between 10-50 in increments of 10
 - **Starting Bankroll**: Begin with 100
 - **Save/Load System**: Continue your session where you left off
@@ -21,7 +21,6 @@ This is a **1v1 blackjack game** where you play against the dealer, with **hole 
 2. Download the latest `.zip` file
 3. Extract the contents to a folder of your choice
 4. Run the `.exe` file
-5. Enjoy the game!
 
 ### Option 2: Build from Source
 1. Make sure you have [Go](https://golang.org/dl/) installed (version 1.25.0 at best)
@@ -36,5 +35,5 @@ This is a **1v1 blackjack game** where you play against the dealer, with **hole 
    .\go-blackjack-tui
    ```
 
-### Game Controls
+## Game Controls
 Once the game is running, simply use your keyboard to navigate through the menus and make your selections.
