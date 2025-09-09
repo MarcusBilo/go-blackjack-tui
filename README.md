@@ -29,17 +29,13 @@ This is a **hole card** blackjack game with **late surrender**, developed using 
 1. Make sure you have [Go](https://golang.org/dl/) installed (version 1.25.0 at best)
 2. Clone this repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/MarcusBilo/go-blackjack-tui
+   cd go-blackjack-tui
    ```
 3. Build and run:
    ```bash
    go build
-   ./<executable-name>
-   ```
-   Or run directly:
-   ```bash
-   go run main.go
+   .\go-blackjack-tui
    ```
 
 ### Game Controls
