@@ -36,4 +36,4 @@ This is a **1v1 blackjack game** where you play against the dealer, with **hole 
    ```
 
 ## Game Controls
-Once the game is running, simply use your keyboard to navigate through the menus and make your selections.
+Once the game is running, simply use your keyboard to navigate through the menus and make your selections. 🍀
