@@ -807,7 +807,7 @@ func newDeck(deckCount uint8, drawStack []card, seed ...uint32) ([]card, uint32)
 func expandUint32ToTwoUint64(x uint32) (uint64, uint64) {
 	y := uint64(x)
 	s1 := y | (y << 32)
-	top16 := (y & 0xFFFF0000) << 16
+	top16 := (y & 0xFFFF0000) << 48
 	middle32 := y << 16
 	bottom16 := y & 0x0000FFFF
 	s2 := top16 | middle32 | bottom16
